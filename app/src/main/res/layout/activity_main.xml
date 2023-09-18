@@ -13,7 +13,7 @@
         <androidx.appcompat.widget.AppCompatImageView
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:background="@color/red"
+            android:background="@color/colorperfilazul3"
             android:scaleType="center"/>
 
         <androidx.appcompat.widget.LinearLayoutCompat
@@ -28,6 +28,7 @@
                 android:layout_marginTop="50dp"
                 android:layout_marginStart="20dp"
                 android:scaleType="centerCrop"
+                android:src="@drawable/perfil_git"
                 android:padding="3dp"
                 android:background="#2B4C5F"
                 android:layout_width="100dp"
@@ -53,9 +54,8 @@
                         android:layout_gravity="center"
                         android:src="@drawable/icon_dashboard"/>
                     <Button
-                        android:id="@+id/MisDatosOpcion"
-                        android:textColor="@color/black"
-                        android:background="@color/yellow"
+                        android:id="@+id/btndashboard"
+                        android:textColor="@color/colorperfilblanco"
                         android:text="@string/dashboard"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"/>
@@ -78,8 +78,7 @@
                     <Button
                         android:id="@+id/CrearPublicacionOpcion"
                         android:text="@string/gastronomia"
-                        android:background="@color/yellow"
-                        android:textColor="@color/black"
+                        android:textColor="@color/colorperfilblanco"
                         android:layout_marginStart="5dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"/>
@@ -112,9 +111,8 @@
 
                     <Button
                         android:id="@+id/PublicacionesOpcion"
-                        android:textColor="@color/black"
+                        android:textColor="@color/colorperfilblanco"
                         android:text="@string/turismo"
-                        android:background="@color/yellow"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"/>
 
@@ -137,8 +135,7 @@
                     <Button
                         android:id="@+id/UsuarioOpcion"
                         android:text="@string/saludmedicina"
-                        android:background="@color/yellow"
-                        android:textColor="@color/black"
+                        android:textColor="@color/colorperfilblanco"
                         android:layout_marginStart="5dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"/>
@@ -171,8 +168,7 @@
                     <Button
                         android:id="@+id/ChatOpcion"
                         android:text="@string/finanzas"
-                        android:background="@color/yellow"
-                        android:textColor="@color/black"
+                        android:textColor="@color/colorperfilblanco"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"/>
 
@@ -196,8 +192,63 @@
                         android:id="@+id/CerrarSesion"
                         android:text="@string/comercio"
                         android:layout_marginStart="5dp"
-                        android:background="@color/yellow"
-                        android:textColor="@color/black"
+                        android:textColor="@color/colorperfilblanco"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <!--FIN SALIR-->
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:weightSum="2">
+
+                <!--CHAT-->
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="80dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/icon_evento"
+                        android:layout_gravity="center"/>
+
+                    <Button
+                        android:id="@+id/btnevento"
+                        android:text="@string/eventos"
+                        android:textColor="@color/colorperfilblanco"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <!--FIN CHAT-->
+
+                <!--SALIR-->
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="80dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/icon_art"
+                        android:layout_gravity="center"/>
+
+                    <Button
+                        android:id="@+id/btnart"
+                        android:text="@string/arte"
+                        android:layout_marginStart="5dp"
+                        android:textColor="@color/colorperfilblanco"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"/>
 

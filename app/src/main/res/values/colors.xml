@@ -9,4 +9,22 @@
     <color name="red">#A61010</color>
     <color name="green">#29BA0F</color>
     <color name="naranja">#CA8116</color>
+
+    <color name="colorperfilceleste">#47b1e7</color>
+    <color name="colorperfilazul">#1372d1</color>
+    <color name="colorperfilrojo">#c90524</color>
+    <color name="colorperfilblanco">#eae6d2</color>
+    <color name="colorperfilverdeoscuro">#04343c</color>
+    <color name="colorperfilpiel">#f47484</color>
+    <color name="colorperfilpirl200">#d2848c</color>
+    <color name="colorperfilrojooscuro">#58111e</color>
+    <color name="colorperfilazul1">#1f4a81</color>
+    <color name="colorperfilazul2">#255494</color>
+    <color name="colorperfilazul3">#2c549c</color>
+    <color name="colorperfilnegro">#04040c</color>
+    <color name="colorperfilrojooscuro1">#3c060c</color>
+    <color name="colorperfilverdeoscuro1">#101810</color>
+    <color name="colorperfilcafeoscuro">#140410</color>
+    <color name="colorperfilazuloscuro4">#040414</color>
+
 </resources>
