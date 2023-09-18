@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">app_design</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="gastronomia">Gastronomía</string>
+    <string name="turismo">Turismo</string>
+    <string name="saludmedicina">Salud y Medicina</string>
+    <string name="finanzas">Finanzas</string>
+    <string name="comercio">Ecommerce</string>
 </resources>
