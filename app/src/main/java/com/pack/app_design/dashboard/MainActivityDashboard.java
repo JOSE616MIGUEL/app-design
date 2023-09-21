@@ -2,10 +2,12 @@ package com.pack.app_design.dashboard;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
+import com.pack.app_design.MainActivity;
 import com.pack.app_design.R;
 
 public class MainActivityDashboard extends AppCompatActivity {
@@ -21,7 +23,8 @@ public class MainActivityDashboard extends AppCompatActivity {
         btnback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                onBackPressed();
+                startActivity(new Intent(MainActivityDashboard.this, MainActivity.class));
+                finish();
             }
         });
     }

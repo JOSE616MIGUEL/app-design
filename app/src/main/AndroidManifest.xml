@@ -13,6 +13,12 @@
         android:theme="@style/Theme.App_design"
         tools:targetApi="31">
         <activity
+            android:name=".restaurant.SplashActivityRestaurant"
+            android:exported="false" />
+        <activity
+            android:name=".restaurant.MainActivityRestaurant"
+            android:exported="false" />
+        <activity
             android:name=".dashboard.MainActivityDashboard"
             android:exported="false" />
         <activity
