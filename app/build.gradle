@@ -29,6 +29,10 @@ android {
     }
 }
 
+configurations {
+    all*.exclude group: 'com.android.support', module: 'support-compat'
+}
+
 dependencies {
 
     implementation 'com.google.android.material:material:1.4.0-rc01'

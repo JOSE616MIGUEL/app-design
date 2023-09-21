@@ -12,21 +12,10 @@ import com.pack.app_design.dashboard.SplashActivityDashboard;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btndashboard;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        btndashboard = findViewById(R.id.btndashboard);
-        btndashboard.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, SplashActivityDashboard.class));
-                finish();
-            }
-        });
 
     }
 }

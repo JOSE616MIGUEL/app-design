@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">App Design</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="registro">Registro</string>
     <string name="dashboard">Dashboard</string>
     <string name="gastronomia">Gastronomía</string>
     <string name="turismo">Turismo</string>
