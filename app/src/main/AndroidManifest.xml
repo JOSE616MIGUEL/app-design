@@ -13,6 +13,30 @@
         android:theme="@style/Theme.App_design"
         tools:targetApi="31">
         <activity
+            android:name=".turismo.SplashActivityTurismo"
+            android:exported="false" />
+        <activity
+            android:name=".turismo.MainActivityTurismo"
+            android:exported="false" />
+        <activity
+            android:name=".medicinasalud.SplashActivityMedicina"
+            android:exported="false" />
+        <activity
+            android:name=".medicinasalud.MainActivityMedicina"
+            android:exported="false" />
+        <activity
+            android:name=".finanzas.SplashActivityFinanza"
+            android:exported="false" />
+        <activity
+            android:name=".finanzas.MainActivityFinanza"
+            android:exported="false" />
+        <activity
+            android:name=".comercio.SplashActivityComercio"
+            android:exported="false" />
+        <activity
+            android:name=".comercio.MainActivityComercio"
+            android:exported="false" />
+        <activity
             android:name=".restaurant.SplashActivityRestaurant"
             android:exported="false" />
         <activity
