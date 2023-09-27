@@ -112,6 +112,7 @@
             android:orientation="horizontal">
 
             <Button
+                android:id="@+id/buttomInicioSesion"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="16dp"
@@ -124,6 +125,7 @@
                 android:textSize="16sp" />
 
             <Button
+                android:id="@+id/buttomRegistrarse"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -137,20 +139,5 @@
 
 
         </LinearLayout>
-
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:fontFamily="@font/calibri"
-            android:text="Forgot Password?"
-            android:textAlignment="center"
-            android:textColor="#96ffffff"
-            android:textSize="16sp" />
-
-
     </LinearLayout>
-
-
 </RelativeLayout>
