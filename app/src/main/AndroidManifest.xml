@@ -58,10 +58,10 @@
             android:name=".comercio.MainActivityComercio"
             android:exported="false" />
         <activity
-            android:name=".restaurant.SplashActivityRestaurant"
+            android:name=".gastronomia.SplashActivityRestaurant"
             android:exported="false" />
         <activity
-            android:name=".restaurant.MainActivityRestaurant"
+            android:name=".gastronomia.MainActivityRestaurant"
             android:exported="false" />
         <activity
             android:name=".dashboard.MainActivityDashboard"
